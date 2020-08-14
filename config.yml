@@ -1,0 +1,16 @@
+word_embeddings:
+
+  default: word2vec
+  word2vec:
+    path:  GoogleNews-vectors-negative300.bin
+    dimension: 300
+    binary: True
+  glove:
+    path: glove.840B.300d.txt
+    dimension: 300
+    length: 400000
+  elmo:
+    path:  https://tfhub.dev/google/elmo/2
+    dimension: 300
+    binary: True
+
